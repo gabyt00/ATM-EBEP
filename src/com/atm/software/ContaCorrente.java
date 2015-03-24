@@ -20,8 +20,7 @@ public class ContaCorrente {
 		this.saldoTotal = saldoTotal;
 	}
 	
-	
-	// determina se o PIN especificado pelo usuário corresponde ao PIN  em conta
+	// determina se o PIN especificado pelo usuário corresponde ao PIN  em conta 
 	public boolean validaPIN(Integer usuarioPin) {
 		return (usuarioPin.equals(this.pinCode));
 	}
@@ -43,7 +42,9 @@ public class ContaCorrente {
 		this.saldoDisponivel = saldoDisponivel.subtract(valor); // subtrai do saldo disp.
 		this.saldoTotal = saldoTotal.subtract(valor); // subtrai do saldo total
 	}
-	
+	/* 123 testando
+	 * 
+	 */
 	public Integer getNumeroConta() {
 		return numeroConta;
 	}

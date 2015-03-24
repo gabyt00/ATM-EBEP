@@ -66,7 +66,7 @@ public class BancoDeDados {
 		ContaCorrente conta  = bd.getConta(12345);
 		
 		if(conta != null ) {
-			System.out.println("conta com saldo de " + conta.getSaldoTotal() );
+			System.out.println("Conta com saldo de " + conta.getSaldoTotal() );
 		}else {
 			System.out.println("Não existe conta com este numero!");
 		}
